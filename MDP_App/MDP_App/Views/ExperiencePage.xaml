@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDP_App.Views.ExperiencePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="Леонид -К4питанПаника- Поздняков Игрок команды CrowCrowd Победитель: PRO.Champions Season II Champions Season III WSI Season 2: АВАНПОСТ Warface Open Cup: Season XV Armageddon League:Lan-Finals Warface Special Invitational Warface Open Cup XIV Warface Open Cup: Season XIII Absolute Power: Pro League Warface Open Cup: Season XII Атлас войны: WARFEST Warface Open Cup:Season 11 Warface Open Cup:Season Игрок первым заполучил достижения: «Рожденный побеждать» «Нашивка CrowCrowd.AG» «Элитный снайпер» «Легендарный снайпер» «Победитель Challenge Cup» «Фанат CrowCrowd.AG» «Великий снайпер» «Дважды великий снайпер» был награжден особой короной в профиле!"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                x:Name="panic"
+                Source="Resources/drawable/panic.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

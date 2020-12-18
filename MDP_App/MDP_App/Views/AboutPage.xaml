@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDP_App.Views.AboutPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="Евгений Черди Базив Игроком команды StreamTeam Победитель: Warface Open Cup: Season XV. Wild Card II Warface Syndicate: PTB Wild Card Warface Syndicate: PTB Cup II Warface Open Cup: Season XII"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                x:Name="cherdy"
+                Source="Resources/drawable/cherdy.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
