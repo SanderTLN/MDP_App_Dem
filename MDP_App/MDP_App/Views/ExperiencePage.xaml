@@ -3,17 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.ExperiencePage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="Wheat">
             <Label
-                Text="Леонид -К4питанПаника- Поздняков Игрок команды CrowCrowd Победитель: PRO.Champions Season II Champions Season III WSI Season 2: АВАНПОСТ Warface Open Cup: Season XV Armageddon League:Lan-Finals Warface Special Invitational Warface Open Cup XIV Warface Open Cup: Season XIII Absolute Power: Pro League Warface Open Cup: Season XII Атлас войны: WARFEST Warface Open Cup:Season 11 Warface Open Cup:Season Игрок первым заполучил достижения: «Рожденный побеждать» «Нашивка CrowCrowd.AG» «Элитный снайпер» «Легендарный снайпер» «Победитель Challenge Cup» «Фанат CrowCrowd.AG» «Великий снайпер» «Дважды великий снайпер» был награжден особой короной в профиле!"
-                VerticalOptions="FillAndExpand"
-                HorizontalOptions="Fill"
+                Text="EL COMENTANTE является популярным видеоблогером по игре World of Tanks, а также довольно узнаваемым игроком в игре."
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 FontAttributes="Bold"
-                Padding="0"
+                FontSize="25"
+                Padding="5"
+                HorizontalTextAlignment="Center"
                 />
             <Image
-                x:Name="panic"
-                Source="Resources/drawable/panic.jpg"
+                x:Name="comentante"
+                Source="comentante.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="300"

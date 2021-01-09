@@ -3,17 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.AboutPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="Wheat">
             <Label
-                Text="Евгений Черди Базив Игроком команды StreamTeam Победитель: Warface Open Cup: Season XV. Wild Card II Warface Syndicate: PTB Wild Card Warface Syndicate: PTB Cup II Warface Open Cup: Season XII"
-                VerticalOptions="FillAndExpand"
-                HorizontalOptions="Fill"
+                Text="Amway921 является одним из самых популярных и плодотворных видеоблогеров по игре World of Tanks, а также одним из самых узнаваемых игроков в игре."
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 FontAttributes="Bold"
-                Padding="0"
+                FontSize="25"
+                Padding="5"
+                HorizontalTextAlignment="Center"
                 />
             <Image
-                x:Name="cherdy"
-                Source="Resources/drawable/cherdy.jpg"
+                x:Name="amway"
+                Source="amway.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="300"

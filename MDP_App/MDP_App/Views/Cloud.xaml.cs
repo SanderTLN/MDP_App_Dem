@@ -17,18 +17,16 @@ namespace MDP_App.Views
             InitializeComponent();
             TapGestureRecognizer tap = new TapGestureRecognizer();
             tap.Tapped += Tap_Tapped;
-            cloud.GestureRecognizers.Add(tap);
-
+            near.GestureRecognizers.Add(tap);
         }
 
         private async void Tap_Tapped(object sender, EventArgs e)
         {
-            var wiki = await DisplayAlert("Глянь игрока!", "Посмотри данные о игроке, продолжить?", "Да", "Нет");
+            var wiki = await DisplayAlert("Статистика", "Посмотреть статистику игрока?", "Да", "Нет");
             if (wiki == true)
             {
-                await Browser.OpenAsync("https://wfts.su/profile/-Кл4уд.", BrowserLaunchMode.SystemPreferred);
+                await Browser.OpenAsync("https://worldoftanks.ru/ru/community/accounts/666248-Near_You/", BrowserLaunchMode.SystemPreferred);
             }
         }
-
     }
 }

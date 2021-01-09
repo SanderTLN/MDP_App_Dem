@@ -3,17 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MDP_App.Views.AchievemnetsPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="Wheat">
             <Label
-                Text="Игроком команды Repulse. Достижения в турнирной составляющей Warface: Warface PRO Champions 2 — 2nd place Warface PRO Champions 1 — 2nd place Open Cup:XV — 5-6 place Warface Armageddon — 4th place Warface Syndicate — 1st place Open Cup: XIV — 3-4 place Open Cup: XIII — 1st place Absolute Power: Pro League — 1st place"
-                VerticalOptions="FillAndExpand"
-                HorizontalOptions="Fill"
+                Text="Jove является самым популярным видеоблогером по игре World of Tanks, а также самым популярным игроком в игре."
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 FontAttributes="Bold"
-                Padding="0"
+                FontSize="25"
+                Padding="5"
+                HorizontalTextAlignment="Center"
                 />
             <Image
-                x:Name="dzet"
-                Source="Resources/drawable/dzet.png"
+                x:Name="jove"
+                Source="jove.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="300"

@@ -41,7 +41,7 @@ namespace MDP_App
             list.Add(new MasterMenuItems()
             {
                 Text = "Андрей Сомов",
-                Detail = "EviL GrannY",
+                Detail = "EviL_GrannY",
                 ImagePath = "granny.jpg",
                 TargetPage = typeof(Views.SkillsPage)
             });
